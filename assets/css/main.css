@@ -2,18 +2,22 @@
     --primary-color: #006747;
 }
 
+body {
+    font-size: 1.3em;
+}
+
 .button {
     background-color: var(--primary-color);
 }
 
 .navbar {
-    height: 6em;
-}
-
-.navbar .logo {
     height: 5em;
 }
 
+.navbar .logo {
+    height: 4em;
+}
+
 .navbar span, .navbar label {
-    font-size: 2rem;
+    font-size: 1.75rem;
 }
