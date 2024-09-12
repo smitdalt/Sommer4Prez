@@ -17,7 +17,7 @@ function showHome() {
     document.getElementById("experience-container").style.display = "none";
     document.getElementById("about-container").style.display = "none";
 
-    document.getElementById("bmenub").checked = false;
+    document.getElementById("bmenu").checked = false;
 }
 
 function showExperience() {
@@ -25,7 +25,7 @@ function showExperience() {
     document.getElementById("experience-container").style.display = "block";
     document.getElementById("about-container").style.display = "none";
 
-    document.getElementById("bmenub").checked = false;
+    document.getElementById("bmenu").checked = false;
 }
 
 function showAbout() {
@@ -33,7 +33,7 @@ function showAbout() {
     document.getElementById("experience-container").style.display = "none";
     document.getElementById("about-container").style.display = "block";
 
-    document.getElementById("bmenub").checked = false;
+    document.getElementById("bmenu").checked = false;
 }
 
 function changeExperienceRight() {
