@@ -162,15 +162,6 @@ body {
     transform: rotate(180deg);
 }
 
-.arrow-container {
-    display: flex;
-    flex-direction: column;
-}
-
-.spacer {
-    flex: 1 1 100vh;
-}
-
 .tabs>.row>*,.tabs>.row img {
     vertical-align: middle;
 }

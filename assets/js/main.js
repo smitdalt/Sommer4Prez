@@ -7,6 +7,8 @@ const aboutMeInterval = setInterval(() => {
         document.getElementById("tab-4").checked = true;
     } else if (document.getElementById("tab-4").checked) {
         document.getElementById("tab-5").checked = true;
+    } else if (document.getElementById("tab-5").checked) {
+        document.getElementById("tab-6").checked = true;
     } else {
         document.getElementById("tab-1").checked = true;
     } 
