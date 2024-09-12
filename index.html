@@ -4,25 +4,56 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="./assets/css/picnic.min.css">
       <link rel="stylesheet" href="./assets/css/main.css">
+      <script src="./assets/js/main.js"></script>
     </head>
     <body>
-        <div style="overflow: hidden;height: 250px;">
-            <nav class="navbar">
-              <a href="#" class="brand">
-                <img class="logo" src="./assets/images/ACHE-Seal.svg" />
-                <span>Sommer</span>
-              </a>
-            
-              <!-- responsive-->
-              <input id="bmenub" type="checkbox" class="show">
-              <label for="bmenub" class="burger pseudo button">&#8801;</label>
-            
-              <div class="menu">
-                <a href="#" class="pseudo button icon-picture">Demo</a>
-                <a href="#" class="button icon-puzzle">Plugins</a>
-              </div>
-            </nav>
-            
-            </div>
+      <div class="container">
+        <nav class="navbar">
+          <a class="brand" onclick="showHome()">
+            <img class="logo" src="./assets/images/ACHE-Seal.svg" />
+            <span>Vote Sommer for MSB President</span>
+          </a>
+        
+          <!-- responsive-->
+          <input id="bmenub" type="checkbox" class="show">
+          <label for="bmenub" class="burger pseudo button">&#8801;</label>
+        
+          <div class="menu">
+            <a class="button" onclick="showExperience()">My Experience</a>
+            <a class="pseudo button" onclick="showAbout()">About Me</a>
+          </div>
+        </nav>
+        
+        <div id="home-container">
+          <div class="promise-container">
+            <img class="headshot" src="./assets/images/headshot.JPEG"/>
+              <article class="card promise-card">
+                <header>
+                  <h3>My Promise</h3>
+                </header>
+                
+                <span>
+                  As your MSB class president. I will strive to accurately and fairly represent all MSB students. 
+                  I believe that I have already shown my qualities as a leader through sharing helpful resources and my willingness to engage with all classmates. 
+                  Additionally, I know I can be a successful president, as I have plenty of leadership experience. 
+                  At my undergraduate school, I was the head of the committee to plan the largest student involvement event, with an attendance of over 7,000 students annually. 
+                  On top of that, I was the president of the Red Cross Club at my undergrad, overseeing all events and club coordination for over 200 members. 
+                  In these roles, among many others, I have had the chance to speak with authority figures and crowds as large as 10,000, making me very comfortable with speaking in different settings. 
+                  Finally, I have already established a rapport with many faculty and staff, as well as many classmates. 
+                  As a result of all these experiences, I know I can be a successful president and work to make our experience at ACHE even better!
+                </span>
+                <footer>
+                  <button class="button" onclick="showExperience()">Learn more about my experience</button>
+                </footer>
+              </article>
+          </div>
+        </div>
+        <div id="experience-container" style="display: none;">
+          Experience
+        </div>
+        <div id="about-container" style="display: none;">
+          About
+        </div>
+      </div>
     </body>
 </html>
