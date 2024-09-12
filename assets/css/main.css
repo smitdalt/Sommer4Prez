@@ -13,6 +13,9 @@ body {
 .button {
     background-color: var(--primary-color);
 }
+nav .brand {
+    max-width: 75%;
+}
 
 .navbar {
     height: 5em;
