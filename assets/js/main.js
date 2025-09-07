@@ -60,8 +60,6 @@ function showAboutToni() {
         document.getElementById("tab-10").checked = true;
     } else if (document.getElementById("tab-10").checked) {
         document.getElementById("tab-11").checked = true;
-    } else if (document.getElementById("tab-11").checked) {
-        document.getElementById("tab-12").checked = true;
     } else {
         document.getElementById("tab-7").checked = true;
     } 
