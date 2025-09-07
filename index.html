@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+      <title>Vote Antonio and Sommer ACHE SGA</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="author" content="Dalton Smith">
       <link rel="icon" type="image/x-icon" href="./assets/images/ACHE.png">
@@ -13,7 +14,7 @@
         <nav class="navbar">
           <a class="brand" onclick="showHome()">
             <img class="logo" src="./assets/images/ACHE-Seal.svg" />
-            <span>Vote Sommer for MSB President</span>
+            <span>Vote Sommer and Antonio for SGA</span>
           </a>
         
           <!-- responsive-->
@@ -21,102 +22,98 @@
           <label for="bmenu" class="burger pseudo button">&#8801;</label>
         
           <div class="menu">
-            <a class="button" onclick="showExperience()">My Experience</a>
-            <a class="pseudo button" onclick="showAbout()">About Me</a>
+            <a class="button" onclick="showExperience()">Vote for Us</a>
+            <a class="pseudo button" onclick="showAboutSommer()">About Sommer</a>
+            <a class="pseudo button" onclick="showAboutToni()">About Antonio</a>
           </div>
         </nav>
         
         <div id="home-container">
           <div class="promise-container">
-            <img class="headshot" src="./assets/images/headshot.JPEG"/>
+            <img class="headshot" src="./assets/images/combined.jpg"/>
               <article class="card promise-card">
                 <header>
-                  <h3>Why Vote for Me?</h3>
+                  <h3>Why Vote for Us?</h3>
                 </header>
                 
                 <span>
-                  As your MSB class president. I will strive to accurately and fairly represent all MSB students. 
-                  I believe that I have already shown my qualities as a leader through sharing helpful resources and my willingness to engage with all classmates. 
-                  Additionally, I know I can be a successful president, as I have plenty of leadership experience. 
-                  At my undergraduate school, I was the head of the committee to plan the largest student involvement event, with an attendance of over 7,000 students annually. 
-                  On top of that, I was the president of the Red Cross Club at my undergrad, overseeing all events and club coordination for over 200 members. 
-                  In these roles, among many others, I have had the chance to speak with authority figures and crowds as large as 10,000, making me very comfortable with speaking in different settings. 
-                  Finally, I have already established a rapport with many faculty and staff, as well as many classmates. 
-                  As a result of all these experiences, I know I can be a successful president and work to make our experience at ACHE even better!
+                  We decided to put our campaigns together as we believe strong leadership means representing every voice! 
+                  Together, we bring diverse perspectives, proven leadership experience, and established relationships with faculty to make communication clear and effective. 
+                  Our goal is to foster an inclusive, supportive environment where every student feels heard, while working side-by-side to strengthen our community and ensure our first year is the best it can be. 
+                  We have worked together in many capacities for over a year now and have proven to complement each other well! 
                 </span>
                 <footer>
-                  <button class="button" onclick="showExperience()">Learn more about my experience</button>
+                  <button class="button" onclick="showExperience()">Learn more</button>
                 </footer>
               </article>
           </div>
         </div>
         <div id="experience-container" class="experience-container" style="display: none;">
-          <h3>My Experience</h3>
-          <div class="experience-gallery-container">
-            <button class="pseudo button gallery" onclick="changeExperienceLeft()"><img src="./assets/images/arrow-left.png"/></button>
-            <div class="tabs three">
-              <input id='tabC-1' type='radio' name='tabgroupC' checked />
-              <input id='tabC-2' type='radio' name='tabgroupC'>
-              <input id='tabC-3' type='radio' name='tabgroupC'>
-              <div class="row experience-gallery">
-                <div>
-                  <img src="./assets/images/redcross.jpg">
-                  <article class="card experience-card">
-                    <header>
-                      <h4>Red Cross</h4>
-                    </header>
-                    
-                    <span>
-                      I was a member of the Red Cross Club at my undergrad for 3 years. 
-                      My second year I was the Vice-president and my third year I was the president of the club. As the president I was in charge of overseeing all events and club coordination for over 200 members. 
-                      Here I am recruiting volunteers for the national Red Cross organization and donors for our blood drive.
-                    </span>
-                  </article>
-                </div>
-                <div>
-                  <img src="./assets/images/pantherfest.jpg">
-                  <article class="card experience-card">
-                    <header>
-                      <h4>Pantherfest</h4>
-                    </header>
-                    
-                    <span>
-                      Me and the other members of the Pantherfest planning committee, talking on stage before the concert. 
-                      As the MSB president, I will have to make a speech at the celebratory brunch before graduation. As seen here I have experience giving speeches to very large crowds.
-                    </span>
-                  </article>
-                </div>
-                <div>
-                  <img src="./assets/images/awards.jpg">
-                  <article class="card experience-card">
-                    <header>
-                      <h4>UWM Student Excellence Awards</h4>
-                    </header>
-                    
-                    <span>
-                      Recipient of a Student Excellence awards for my work on the Pantherfest planning committee: Program of the year award and Exemplary leadership award, at the University of Wisconsin-Milwaukee.
-                    </span>
-                  </article>
-                </div>
-              </div>
-            </div>
-            <button class="pseudo button gallery right" onclick="changeExperienceRight()"><img src="./assets/images/arrow-left.png"/></button>
+          <div class="antonio-container">
+            <article class="card">
+              <header>
+                <h3>Why Vote for Antonio</h3>
+              </header>
+              <img src="assets/images/headshot-toni.jpeg"/>
+              <footer>
+                <span>As your OMS1 President, I will not speak for you. I will make sure that you’re heard. I believe that every student should have a direct line to SGA, and I will do so via anonymous feedback channels and regular check-ins. 
+                Transparency, and communication will be our standard. I will work with the vice-president to ensure that we reach our community beyond the walls of ARCOM by leading initiatives for service projects that will reflect our values as an institution, and as future physicians. 
+                Lastly, I will work to prepare us for what is coming ahead, boards and residency. 
+                I will work with faculty and peers to bring targeted review sessions, resident lectures on what to expect, and much more. 
+                With years of leadership experience, I know that I can advocate for students and ensure that we are given the needed support. 
+                Together, we will build a support system that will lead us to success.</span>
+              </footer>
+            </article>
+          </div>
+          <div class="sommer-container">
+              <article class="card">
+              <header>
+                <h3>Why Vote for Sommer</h3>
+              </header>
+              <img src="assets/images/headshot-sommer.jpeg"/>
+              <footer>
+                <span>As your OMS1 Vice President, I will work to represent every member of our class with fairness, transparency, and dedication. 
+                I have and will continue to prioritize sharing resources, engaging openly with all classmates, and fostering a collaborative environment. 
+                I will prioritize gathering student feedback and using it to give students a stronger voice. As a former MSB, I’ve built strong relationships with ARCOM faculty and staff, enabling me to better serve as an effective advocate for our class. 
+                In this role, I will support our president, to ensure that no student’s voice goes unheard, and help create a stronger sense of community within our cohort. 
+                Additionally, I aim to launch initiatives to help us prepare for future steps by working with past and present students, faculty and community members; to speak on their experience and how we can best prepare. 
+                Lastly, I would like to further my work with the Question Writers group to build a comprehensive question bank for all current and future ARCOM students. My leadership experience has prepared me to step up when needed, bridge gaps, and create meaningful improvements to our medical school journey.
+                I’m excited for the opportunity to serve as your Vice President and help make our time at ARCOM the best it can be!</span>
+              </footer>
+            </article>
           </div>
         </div>
-        <div id="about-container" class="about-container" style="display: none;">
-          <h3>About Me</h3>
-          <span>Hi, I am Sommer. I was born and raised in West Bend, Wisconsin - a town about an hour north of Milwaukee. I grew up in a large family, being the youngest of 5 siblings! Although I now live far away, my siblings and I are still close! I also have two cute little nieces that are 1 and 4 years old! 
-            I went to West bend East high school, where I played volleyball, basketball and track. I still enjoy playing volleyball once a week, but do not play basketball or run much anymore. I graduated from high school in 2019.  
+        <div id="about-sommer-container" class="about-container" style="display: none;">
+          <h3>About Sommer</h3>
+          <span>Hi, I am Sommer. I was born and raised in West Bend, Wisconsin - a town about an hour north of Milwaukee. 
+            I grew up in a large family, being the youngest of 5 siblings! 
+            Although I now live far away, my siblings and I are still close! 
+            I also have two cute little nieces that are 2 and 5 years old! 
+            I went to West bend East high school, where I played volleyball, basketball and track.
+            I still enjoy playing volleyball once a week! I graduated from high school in 2019.
             <br><br>
-            For college I went to the University Of Wisconsin Milwaukee, where I majored in Biology and got a minor in chemistry. During my breaks from school, I worked at a Parks department in the city where I grew up, where I was able to work with some of my siblings. 
-            While in college, I was involved with many clubs and also spent my free time volunteering at a free clinic and as a tutor and mentor for young girls at a local community center. 
-            Additionally, I did research working with zebrafish looking at MYH genes involvement in development, and how specific mutations in these genes altered development. I graduated From UWM in December of 2022. 
+              For undergrad I went to the University of Wisconsin Milwaukee, where I majored in Biology and got a minor in chemistry. 
+              During my breaks from school, I worked at a Parks department for the city I grew up in, where I actually worked with some of my siblings. 
+              In college, I was involved with many clubs and spent my free time volunteering at a free clinic and as a tutor/mentor for young girls at a local community center. 
+              Additionally, I did research working with zebrafish looking at MYH genes involvement in development, and how specific mutations in these genes alter development. I graduated From UWM in December of 2022.
             <br><br>
-            After graduating, I worked as an EKG tech at a hospital in Milwaukee for a few months. Then, in July of last year, my boyfriend, Dalton, and I moved down here to Fort Smith with our two cats (Dalton works as a software engineer and made this website). 
-            Last August, we got our first dog, Bailey. This past spring, we decided one crazy dog wasn't enough and got another puppy, Bear. They are both German Shorthaired Pointers. Yes, they do hunt, but there are not a lot of upland birds around here so we can really only go hunting with them when we go back to Wisconsin. 
+              After graduating, I worked as an EKG tech at a hospital in Milwaukee for a few months. 
+              Then, in July of 2023 year, my boyfriend, Dalton, and I moved to Fort Smith with our two cats, Buddy and Missy. 
+              Dalton works as a software engineer and made this website. That August, we got our first dog, Bailey. 
+              Then a year later, in July of 2024 we decided one crazy dog wasn't enough and got another puppy, Bear. They are both German Shorthaired Pointers. 
+              Yes, they do hunt, but there are not a lot of upland birds around here so we can really only go hunting with them when we go back to Wisconsin. 
             <br><br>
-            After this year, my plan is to go back to the DO program at ARCOM. I am not sure what I want to specialize in, as I have a very open mind to most things. I have always had an interest in pediatrics, but a lot of specialties sound interesting to me, so I don't want to make my mind up yet! 
-            None of us have much of it, but in my free time I like to go on bike rides, play with my dogs, and play video games with my boyfriend. I also enjoy reading, but sadly have not had time to read in a while! 
+              In July of 2024, I started the MSB program at ACHE and it was the best decision I have ever made! 
+              I feel that it truly prepared me for the rigor of medical school and gave me a good foundation. 
+              I also met some great friends, one of them being Toni! Toni and I spent a lot of time in TBLs together studying as well as going to events, such as the RAM clinic, together. 
+              We have found that we complement each other well and make a good team!  
+            <br><br>
+              Now at ARCOM I am so happy with my decision to stay in Arkansas! 
+              I am not sure what I want to specialize in, I have a very open mind to most things. 
+              I have always had an interest in pediatrics, but a lot of specialties sound interesting to me, so I don't want to make my mind up yet! 
+              None of us have much of it, but in my free time I like to go on bike rides, play with my dogs, and play video games with my boyfriend. 
+              I also enjoy reading; I actually reread all the Hunger games books this summer and thought it was very interesting reading it with a different perspective as an adult!
+ 
           </span>
 
           <div class="gallery-container">
@@ -153,6 +150,65 @@
               <label for="tab-4"><img src="./assets/images/thumbnail_IMG_7414.jpg" onclick="cancelAboutMeGallery()"></label>
               <label for="tab-5"><img src="./assets/images/thumbnail_IMG_9176.jpg" onclick="cancelAboutMeGallery()"></label>
               <label for="tab-6"><img src="./assets/images/thumbnail_IMG_9166.jpg" onclick="cancelAboutMeGallery()"></label>
+            </div>
+          </div>
+        </div>
+        <div id="about-toni-container" class="about-container" style="display: none;">
+          <h3>About Antonio</h3>
+          <span>
+            Hello! I am Antonio, but people call me Toni. I was born in Brazil, and moved to Houston, TX in 2013 with my mom, dad and younger brother. 
+            He is currently studying Aeronautical Sciences at Embry-Riddle University and wants to work as a commercial airline pilot in the future. 
+            I also have a lovely girlfriend, Isabella, who went to the same undergrad university, which is where we met. 
+            She is an extremely talented artist who is currently working with interior design and event planning in Dallas.  
+            <br><br>
+            I went to the University of Dallas in Irving, Texas where I played collegiate soccer for 4 years and gained a lot of experience with leadership through the Student Athlete Advisory committee (SAAC). 
+            During those 4 years I worked alongside the university board to enhance the student athlete experience and make sure that every voice was heard by meetings with the university president, deans and other faculty members.  
+            <br><br>
+            After that, I came to Fort Smith and started here at ACHE in the MSB program last year. 
+            During that time, I met some lifelong friends like Sommer, George, Charlie and Cooper. 
+            While working through the MSB program here at ACHE, I was introduced to many different experiences that allowed me to grow and become an even more effective leader, like attending the RAM clinic last year as a patient translator, and organizing events for the class to clean the anatomy lab when our dissections were done at the end of the year. 
+            I am also a part of the ACHE soccer team, ACHES AND PAINS and we play in a league here in Fort Smith against other local teams. 
+            <br><br>
+            During my time in the MSB program and carrying over into the DO program, I have spent a lot of time with Sommer, and we have learned a lot about the needs of our program and ACHE. 
+            We have worked very well together in the past and I am sure that if we are elected as your SGA representatives our ideas as a class will come to fruition.  
+            <br><br>
+            If you have any questions, please feel free to come up and chat! I love hearing about your ideas and your perspectives and what I could do to make your experience even better here at ARCOM!
+          </span>
+
+          <div class="gallery-container">
+            <div class="tabs six">
+              <input id='tab-7' type='radio' name='tabgroupC' checked />
+              <input id='tab-8' type='radio' name='tabgroupC'>
+              <input id='tab-9' type='radio' name='tabgroupC'>
+              <input id='tab-10' type='radio' name='tabgroupC'>
+              <input id='tab-11' type='radio' name='tabgroupC'>
+              <input id='tab-12' type='radio' name='tabgroupC'>
+              <div class="row">
+                <div>
+                  <img src="./assets/images/processed-84672EA0-8E60-4461-968C-4748A38E17D2.jpeg">
+                </div>
+                <div>
+                  <img src="./assets/images/thumbnail_IMG_1222.jpg">
+                </div>
+                <div>
+                  <img src="./assets/images/thumbnail_IMG_1583.jpg">
+                </div>
+                <div>
+                  <img src="./assets/images/thumbnail_IMG_7414.jpg">
+                </div>
+                <div>
+                  <img src="./assets/images/thumbnail_IMG_9176.jpg">
+                </div>
+                <div>
+                  <img src="./assets/images/thumbnail_IMG_9166.jpg">
+                </div>
+              </div>
+              <label for="tab-7"><img src="./assets/images/processed-84672EA0-8E60-4461-968C-4748A38E17D2.jpeg" onclick="cancelAboutMeGallery()"></label>
+              <label for="tab-8"><img src="./assets/images/thumbnail_IMG_1222.jpg" onclick="cancelAboutMeGallery()"></label>
+              <label for="tab-9"><img src="./assets/images/thumbnail_IMG_1583.jpg" onclick="cancelAboutMeGallery()"></label>
+              <label for="tab-10"><img src="./assets/images/thumbnail_IMG_7414.jpg" onclick="cancelAboutMeGallery()"></label>
+              <label for="tab-11"><img src="./assets/images/thumbnail_IMG_9176.jpg" onclick="cancelAboutMeGallery()"></label>
+              <label for="tab-12"><img src="./assets/images/thumbnail_IMG_9166.jpg" onclick="cancelAboutMeGallery()"></label>
             </div>
           </div>
         </div>

@@ -44,7 +44,7 @@ nav .brand {
     }
     
     .headshot {
-        width: 50%;
+        width: 40%;
         min-width: 300px;
         position: absolute;
         left: 0;
@@ -54,7 +54,7 @@ nav .brand {
     .promise-card {
         position: absolute;
         z-index: 100;
-        left: 35vw;
+        left: 30vw;
         border: none;
         background: linear-gradient(90deg, rgba(255, 255, 255, 0.5) 0%, rgb(170, 170, 170) 25%);
     }
@@ -73,8 +73,23 @@ nav .brand {
     }
 
     .experience-container {
-        width: 60vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 95vw;
         margin: auto;
+
+        span {
+            font-size: 1.3rem;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        div {
+            width: 35vw;
+        }
     }
 }
 
@@ -85,7 +100,7 @@ nav .brand {
     }
 
     .experience-container {
-        width: 50vw;
+        width: 95vw;
         margin: auto;
     }
 }
@@ -106,6 +121,15 @@ nav .brand {
     .experience-container {
         padding: .6em .8em;
         margin: 1em, 1.2em;
+        flex-direction: column;
+
+        img {
+            max-width: 100%;
+        }
+
+        div {
+            max-width: 95vw;
+        }
     }
     
     .headshot {
@@ -128,10 +152,6 @@ nav .brand {
 
 .gallery-container {
     margin-top: 1rem;
-}
-
-.experience-container h3 {
-    border-bottom: 1px solid #aaa;
 }
 
 .experience-gallery-container {

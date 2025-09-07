@@ -1,4 +1,32 @@
-const aboutMeInterval = setInterval(() => {
+let aboutMeInterval;
+
+function showHome() {
+    document.getElementById("home-container").style.display = "block";
+    document.getElementById("experience-container").style.display = "none";
+    document.getElementById("about-toni-container").style.display = "none";
+    document.getElementById("about-sommer-container").style.display = "none";
+
+    document.getElementById("bmenu").checked = false;
+}
+
+function showExperience() {
+    document.getElementById("home-container").style.display = "none";
+    document.getElementById("experience-container").style.display = "flex";
+    document.getElementById("about-toni-container").style.display = "none";
+    document.getElementById("about-sommer-container").style.display = "none";
+
+    document.getElementById("bmenu").checked = false;
+}
+
+function showAboutSommer() {
+    document.getElementById("home-container").style.display = "none";
+    document.getElementById("experience-container").style.display = "none";
+    document.getElementById("about-toni-container").style.display = "none";
+    document.getElementById("about-sommer-container").style.display = "block";
+
+    document.getElementById("bmenu").checked = false;
+
+    aboutMeInterval = setInterval(() => {
     if (document.getElementById("tab-1").checked) {
         document.getElementById("tab-2").checked = true;
     } else if (document.getElementById("tab-2").checked) {
@@ -13,29 +41,31 @@ const aboutMeInterval = setInterval(() => {
         document.getElementById("tab-1").checked = true;
     } 
 }, 5000);
-
-function showHome() {
-    document.getElementById("home-container").style.display = "block";
-    document.getElementById("experience-container").style.display = "none";
-    document.getElementById("about-container").style.display = "none";
-
-    document.getElementById("bmenu").checked = false;
 }
 
-function showExperience() {
-    document.getElementById("home-container").style.display = "none";
-    document.getElementById("experience-container").style.display = "block";
-    document.getElementById("about-container").style.display = "none";
-
-    document.getElementById("bmenu").checked = false;
-}
-
-function showAbout() {
+function showAboutToni() {
     document.getElementById("home-container").style.display = "none";
     document.getElementById("experience-container").style.display = "none";
-    document.getElementById("about-container").style.display = "block";
+    document.getElementById("about-toni-container").style.display = "block";
+    document.getElementById("about-sommer-container").style.display = "none";
 
     document.getElementById("bmenu").checked = false;
+
+    aboutMeInterval = setInterval(() => {
+    if (document.getElementById("tab-7").checked) {
+        document.getElementById("tab-8").checked = true;
+    } else if (document.getElementById("tab-8").checked) {
+        document.getElementById("tab-9").checked = true;
+    } else if (document.getElementById("tab-9").checked) {
+        document.getElementById("tab-10").checked = true;
+    } else if (document.getElementById("tab-10").checked) {
+        document.getElementById("tab-11").checked = true;
+    } else if (document.getElementById("tab-11").checked) {
+        document.getElementById("tab-12").checked = true;
+    } else {
+        document.getElementById("tab-7").checked = true;
+    } 
+}, 5000);
 }
 
 function changeExperienceRight() {
